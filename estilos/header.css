@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(parede.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-size: 1200px;
+    margin-bottom: 50px;
+    padding: 15px;
+    border-bottom: solid 1px black;
+}
+
+.logo>a>img{
+    width: 30%;
+}
+
+.links{
+    display: flex;
+    gap: 80px;
+}
+
+.links>a{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.links>a:hover{
+    opacity: 0.4;
+}
+
+#check{
+    display: none;
+}
+
+.icons{
+    right: 5%;
+    position: absolute;
+    font-size: 2.8rem;
+    cursor: pointer;
+    display: none;
+}

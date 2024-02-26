@@ -1,0 +1,111 @@
+@media screen and (max-width: 1024px) {
+   html, body{
+    overflow-x: hidden;
+   }
+
+   .links{
+    gap: 20px;
+   }
+
+   .links>a{
+    width: 130px;
+    text-align: center;
+   }
+
+   .nav{
+    z-index: 1;
+   }
+}
+
+@media screen and (max-width: 960px) {
+    .logo>a>img{
+        width: 80px;
+    }
+
+    .links{
+        gap: 80px;
+    }
+    
+
+   .links>a{
+        width: 93%;
+        margin-left: -16px;
+    }
+
+    main{
+        margin-top: 150px;
+    }
+
+    .titulos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .titulos>a{
+        margin: 5px;
+    }
+
+    .nav{
+        justify-content: start;
+        position: fixed;
+        width: 100%;
+    }
+
+   .icons{
+    display: inline-block;
+   }
+
+   #check:checked~.icons #menu-icon{
+    display: none;
+   }
+
+   .icons #close-icon{
+    display: none;
+   }
+
+   #check:checked~.icons #close-icon{
+    display: block;
+   }
+
+   .links{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s ease;
+    overflow: hidden;
+   }
+
+   #check:checked~.links{
+    height: 17.7rem;
+   }
+
+   .links>a{
+        margin: 1rem;
+        margin-bottom: -42px;
+   }
+}
+
+@media screen and (max-width: 446px) {
+    .titulos>a{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .amostra>img{
+        width: 80%;
+    }
+
+    .separadores{
+        width: 350px;
+    }
+}
