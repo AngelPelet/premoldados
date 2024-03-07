@@ -12,6 +12,20 @@ function pisos(){
     blocos.style.display = 'none'
     meiofio.style.display = 'none'
     pingadeira.style.display = 'none'
+
+    let pisos1 = document.querySelector('.pisos')
+    let revestimentos1 = document.querySelector('.revestimentos')
+    let cobogos1 = document.querySelector('.cobogos')
+    let blocos1 = document.querySelector('.blocos')
+    let meiofio1 = document.querySelector('.meiofio')
+    let pingadeira1 = document.querySelector('.pingadeira')
+
+    pisos1.classList.add('ativo')
+    revestimentos1.classList.remove('ativo')
+    cobogos1.classList.remove('ativo')
+    blocos1.classList.remove('ativo')
+    meiofio1.classList.remove('ativo')
+    pingadeira1.classList.remove('ativo')
 }
 
 function revestimentos(){
@@ -28,6 +42,20 @@ function revestimentos(){
     blocos.style.display = 'none'
     meiofio.style.display = 'none'
     pingadeira.style.display = 'none'
+
+    let pisos1 = document.querySelector('.pisos')
+    let revestimentos1 = document.querySelector('.revestimentos')
+    let cobogos1 = document.querySelector('.cobogos')
+    let blocos1 = document.querySelector('.blocos')
+    let meiofio1 = document.querySelector('.meiofio')
+    let pingadeira1 = document.querySelector('.pingadeira')
+
+    pisos1.classList.remove('ativo')
+    revestimentos1.classList.add('ativo')
+    cobogos1.classList.remove('ativo')
+    blocos1.classList.remove('ativo')
+    meiofio1.classList.remove('ativo')
+    pingadeira1.classList.remove('ativo')
 }
 
 function cobogos(){
@@ -44,6 +72,20 @@ function cobogos(){
     blocos.style.display = 'none'
     meiofio.style.display = 'none'
     pingadeira.style.display = 'none'
+
+    let pisos1 = document.querySelector('.pisos')
+    let revestimentos1 = document.querySelector('.revestimentos')
+    let cobogos1 = document.querySelector('.cobogos')
+    let blocos1 = document.querySelector('.blocos')
+    let meiofio1 = document.querySelector('.meiofio')
+    let pingadeira1 = document.querySelector('.pingadeira')
+
+    pisos1.classList.remove('ativo')
+    revestimentos1.classList.remove('ativo')
+    cobogos1.classList.add('ativo')
+    blocos1.classList.remove('ativo')
+    meiofio1.classList.remove('ativo')
+    pingadeira1.classList.remove('ativo')
 }
 
 function blocos(){
@@ -60,6 +102,20 @@ function blocos(){
     blocos.style.display = 'block'
     meiofio.style.display = 'none'
     pingadeira.style.display = 'none'
+
+    let pisos1 = document.querySelector('.pisos')
+    let revestimentos1 = document.querySelector('.revestimentos')
+    let cobogos1 = document.querySelector('.cobogos')
+    let blocos1 = document.querySelector('.blocos')
+    let meiofio1 = document.querySelector('.meiofio')
+    let pingadeira1 = document.querySelector('.pingadeira')
+
+    pisos1.classList.remove('ativo')
+    revestimentos1.classList.remove('ativo')
+    cobogos1.classList.remove('ativo')
+    blocos1.classList.add('ativo')
+    meiofio1.classList.remove('ativo')
+    pingadeira1.classList.remove('ativo')
 }
 
 function meiofio(){
@@ -76,6 +132,20 @@ function meiofio(){
     blocos.style.display = 'none'
     meiofio.style.display = 'block'
     pingadeira.style.display = 'none'
+
+    let pisos1 = document.querySelector('.pisos')
+    let revestimentos1 = document.querySelector('.revestimentos')
+    let cobogos1 = document.querySelector('.cobogos')
+    let blocos1 = document.querySelector('.blocos')
+    let meiofio1 = document.querySelector('.meiofio')
+    let pingadeira1 = document.querySelector('.pingadeira')
+
+    pisos1.classList.remove('ativo')
+    revestimentos1.classList.remove('ativo')
+    cobogos1.classList.remove('ativo')
+    blocos1.classList.remove('ativo')
+    meiofio1.classList.add('ativo')
+    pingadeira1.classList.remove('ativo')
 }
 
 function pingadeira(){
@@ -92,4 +162,18 @@ function pingadeira(){
     blocos.style.display = 'none'
     meiofio.style.display = 'none'
     pingadeira.style.display = 'block'
+
+    let pisos1 = document.querySelector('.pisos')
+    let revestimentos1 = document.querySelector('.revestimentos')
+    let cobogos1 = document.querySelector('.cobogos')
+    let blocos1 = document.querySelector('.blocos')
+    let meiofio1 = document.querySelector('.meiofio')
+    let pingadeira1 = document.querySelector('.pingadeira')
+
+    pisos1.classList.remove('ativo')
+    revestimentos1.classList.remove('ativo')
+    cobogos1.classList.remove('ativo')
+    blocos1.classList.remove('ativo')
+    meiofio1.classList.remove('ativo')
+    pingadeira1.classList.add('ativo')
 }

@@ -6,13 +6,10 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url(parede.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-size: 1200px;
+    background-color: rgb(245, 248, 248);
     margin-bottom: 50px;
     padding: 15px;
-    border-bottom: solid 1px black;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
 }
 
 .logo>a>img{
